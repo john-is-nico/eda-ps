@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2502a65675dc4893b8f70d2dd1e23363 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2502a65675dc4893b8f70d2dd1e23363" ></div>
+        
+</body>
+<script>    
+    
+            var map_2502a65675dc4893b8f70d2dd1e23363 = L.map(
+                "map_2502a65675dc4893b8f70d2dd1e23363",
+                {
+                    center: [14.5562297, 121.0204097],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbc48cfdd2514e7a9a7b78fc3bbf5e3a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+            var circle_marker_48d07429324841968a250821cdf4c6f2 = L.circleMarker(
+                [14.559892623850036, 121.02345814421246],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_c609c11465eb4a639ce7724659a32cdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a09bae682cf4f699689056c872ef96d = $(`<div id="html_9a09bae682cf4f699689056c872ef96d" style="width: 100.0%; height: 100.0%;">bank of the philippine islands (bpi)</div>`)[0];
+            popup_c609c11465eb4a639ce7724659a32cdf.setContent(html_9a09bae682cf4f699689056c872ef96d);
+        
+
+        circle_marker_48d07429324841968a250821cdf4c6f2.bindPopup(popup_c609c11465eb4a639ce7724659a32cdf)
+        ;
+
+        
+    
+    
+            var circle_marker_376bd4ab9ba246169468949a55986d79 = L.circleMarker(
+                [14.556857993461193, 121.0208172295448],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_39e397524f69489386e89a439a45b4a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d8ee1199bce435db5d40f839ea28a39 = $(`<div id="html_3d8ee1199bce435db5d40f839ea28a39" style="width: 100.0%; height: 100.0%;">bank of the philippine islands (bpi) head office</div>`)[0];
+            popup_39e397524f69489386e89a439a45b4a8.setContent(html_3d8ee1199bce435db5d40f839ea28a39);
+        
+
+        circle_marker_376bd4ab9ba246169468949a55986d79.bindPopup(popup_39e397524f69489386e89a439a45b4a8)
+        ;
+
+        
+    
+    
+            var circle_marker_16c650960d0147099bd4f3d3a705912f = L.circleMarker(
+                [14.556081042553911, 121.0208577238162],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_67eafa6f338841d1b2e42cae64e43fb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f29f03e261c848718cf21b44a6f111d7 = $(`<div id="html_f29f03e261c848718cf21b44a6f111d7" style="width: 100.0%; height: 100.0%;">bank of the philippine islands</div>`)[0];
+            popup_67eafa6f338841d1b2e42cae64e43fb4.setContent(html_f29f03e261c848718cf21b44a6f111d7);
+        
+
+        circle_marker_16c650960d0147099bd4f3d3a705912f.bindPopup(popup_67eafa6f338841d1b2e42cae64e43fb4)
+        ;
+
+        
+    
+    
+            var circle_marker_2f35a4247f0a415e9a80619e562d0480 = L.circleMarker(
+                [14.556818414524331, 121.0220558832228],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_69e3e8ca7b0c41d69cda24149a578de0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f60b12cecd0440658c1a25c87eeef60c = $(`<div id="html_f60b12cecd0440658c1a25c87eeef60c" style="width: 100.0%; height: 100.0%;">bank of the philippine islands</div>`)[0];
+            popup_69e3e8ca7b0c41d69cda24149a578de0.setContent(html_f60b12cecd0440658c1a25c87eeef60c);
+        
+
+        circle_marker_2f35a4247f0a415e9a80619e562d0480.bindPopup(popup_69e3e8ca7b0c41d69cda24149a578de0)
+        ;
+
+        
+    
+    
+            var circle_marker_ef77dc52b7684e97bd5fd2b77d97024e = L.circleMarker(
+                [14.557430421076644, 121.02009624562676],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_229c941d2cba4c1e89760f4d08241e3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aaccc14338841adaf62781c864e28b1 = $(`<div id="html_6aaccc14338841adaf62781c864e28b1" style="width: 100.0%; height: 100.0%;">bank of the philippine islands</div>`)[0];
+            popup_229c941d2cba4c1e89760f4d08241e3e.setContent(html_6aaccc14338841adaf62781c864e28b1);
+        
+
+        circle_marker_ef77dc52b7684e97bd5fd2b77d97024e.bindPopup(popup_229c941d2cba4c1e89760f4d08241e3e)
+        ;
+
+        
+    
+    
+            var circle_marker_2f58bce142e646b7b2786c91764a2699 = L.circleMarker(
+                [14.557592332303082, 121.01948025594172],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_670514a1f896487fbb1f2abaf70e46d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86a35a34b4c345e5975162e152d67ba2 = $(`<div id="html_86a35a34b4c345e5975162e152d67ba2" style="width: 100.0%; height: 100.0%;">bank of the philippine islands</div>`)[0];
+            popup_670514a1f896487fbb1f2abaf70e46d8.setContent(html_86a35a34b4c345e5975162e152d67ba2);
+        
+
+        circle_marker_2f58bce142e646b7b2786c91764a2699.bindPopup(popup_670514a1f896487fbb1f2abaf70e46d8)
+        ;
+
+        
+    
+    
+            var circle_marker_e0d2b9e531b2458e9d2278400944c913 = L.circleMarker(
+                [14.555853881638559, 121.02276736455343],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_5440219a2cbd4340af4a9d90943f745d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76f3567977a2461da6651dfecc938fc1 = $(`<div id="html_76f3567977a2461da6651dfecc938fc1" style="width: 100.0%; height: 100.0%;">bank of the philippine islands (bpi)</div>`)[0];
+            popup_5440219a2cbd4340af4a9d90943f745d.setContent(html_76f3567977a2461da6651dfecc938fc1);
+        
+
+        circle_marker_e0d2b9e531b2458e9d2278400944c913.bindPopup(popup_5440219a2cbd4340af4a9d90943f745d)
+        ;
+
+        
+    
+    
+            var circle_marker_d0f7d31f607049f7b30307c5c9c915f2 = L.circleMarker(
+                [14.553281068842038, 121.0251976394601],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_9196f0c86ffa40a1b4679793e91b8be2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57de439219b04c4cb98d9c4d8aa7d45c = $(`<div id="html_57de439219b04c4cb98d9c4d8aa7d45c" style="width: 100.0%; height: 100.0%;">bank of the philippine islands</div>`)[0];
+            popup_9196f0c86ffa40a1b4679793e91b8be2.setContent(html_57de439219b04c4cb98d9c4d8aa7d45c);
+        
+
+        circle_marker_d0f7d31f607049f7b30307c5c9c915f2.bindPopup(popup_9196f0c86ffa40a1b4679793e91b8be2)
+        ;
+
+        
+    
+    
+            var circle_marker_22faaf77700f45139ba8e310afcfffea = L.circleMarker(
+                [14.55967536800187, 121.02424569428696],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2502a65675dc4893b8f70d2dd1e23363);
+        
+    
+        var popup_7f3765d72d844731815b56b97ad1c0dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c15a48f7aae4eefa33ecaf43d5889fe = $(`<div id="html_9c15a48f7aae4eefa33ecaf43d5889fe" style="width: 100.0%; height: 100.0%;">bank of the philippine islands</div>`)[0];
+            popup_7f3765d72d844731815b56b97ad1c0dd.setContent(html_9c15a48f7aae4eefa33ecaf43d5889fe);
+        
+
+        circle_marker_22faaf77700f45139ba8e310afcfffea.bindPopup(popup_7f3765d72d844731815b56b97ad1c0dd)
+        ;
+
+        
+    
+</script>
